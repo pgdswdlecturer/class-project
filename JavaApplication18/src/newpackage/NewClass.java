@@ -14,5 +14,19 @@ public class NewClass {
 
     public NewClass() {
     }
+
+    public NewClass(String newClass) {
+        this.newClass = newClass;
+    }
+
+    public String getNewClass() {
+        return newClass;
+    }
+
+    public void setNewClass(String newClass) {
+        this.newClass = newClass;
+    }
+    
+    
     
 }
